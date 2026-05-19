@@ -1,0 +1,174 @@
+/**
+ * API utility functions for Centauri backend communication
+ */
+
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
+export interface Event {
+  id: string;
+  name: string;
+  city: string;
+  date: string;
+  time: string;
+  location: string;
+  description: string;
+  skills: string[];
+  hasDevices: boolean;
+}
+
+export interface Hub {
+  id: string;
+  name: string;
+  city: string;
+  postcode: string;
+  type: string;
+  region: string;
+  nation: string;
+  category: string;
+  description: string;
+  website?: string;
+  email?: string;
+  phone?: string;
+}
+
+export interface Course {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  difficulty: string;
+  duration: string;
+  totalXp: number;
+  icon: string;
+  category: string;
+  instructor: string;
+  rating: number;
+  students: number;
+  prerequisites: string[];
+}
+
+export interface Mentor {
+  id: string;
+  name: string;
+  title: string;
+  bio: string;
+  expertise: string[];
+  location: string;
+  availability: string;
+  rating: number;
+  reviews: number;
+  image: string;
+}
+
+// ──────────────────────────────────────────────
+// UTILITY FUNCTIONS
+// ──────────────────────────────────────────────
+
+async function fetchAPI<T>(endpoint: string): Promise<T> {
+  try {
+    const response = await fetch(`${API_URL}${endpoint}`);
+    if (!response.ok) {
+      throw new Error(`API error: ${response.statusText}`);
+    }
+    return response.json();
+  } catch (error) {
+    console.error(`Error fetching ${endpoint}:`, error);
+    throw error;
+  }
+}
+
+// ──────────────────────────────────────────────
+// EVENTS API
+// ──────────────────────────────────────────────
+
+export const eventsAPI = {
+  getAll: async (): Promise<Event[]> => {
+    return fetchAPI('/events');
+  },
+
+  getById: async (id: string): Promise<Event> => {
+    return fetchAPI(`/events/${id}`);
+  },
+
+  getByCity: async (city: string): Promise<Event[]> => {
+    return fetchAPI(`/events/city/${encodeURIComponent(city)}`);
+  },
+};
+
+// ──────────────────────────────────────────────
+// HUBS API
+// ──────────────────────────────────────────────
+
+export const hubsAPI = {
+  getAll: async (): Promise<Hub[]> => {
+    return fetchAPI('/hubs');
+  },
+
+  getById: async (id: string): Promise<Hub> => {
+    return fetchAPI(`/hubs/${id}`);
+  },
+
+  getByCity: async (city: string): Promise<Hub[]> => {
+    return fetchAPI(`/hubs/city/${encodeURIComponent(city)}`);
+  },
+
+  getByRegion: async (region: string): Promise<Hub[]> => {
+    return fetchAPI(`/hubs/region/${encodeURIComponent(region)}`);
+  },
+
+  getByNation: async (nation: string): Promise<Hub[]> => {
+    return fetchAPI(`/hubs/nation/${encodeURIComponent(nation)}`);
+  },
+};
+
+// ──────────────────────────────────────────────
+// COURSES API
+// ──────────────────────────────────────────────
+
+export const coursesAPI = {
+  getAll: async (): Promise<Course[]> => {
+    return fetchAPI('/courses');
+  },
+
+  getById: async (id: string): Promise<Course> => {
+    return fetchAPI(`/courses/${id}`);
+  },
+
+  getByCategory: async (category: string): Promise<Course[]> => {
+    return fetchAPI(`/courses/category/${encodeURIComponent(category)}`);
+  },
+
+  getByDifficulty: async (difficulty: string): Promise<Course[]> => {
+    return fetchAPI(`/courses/difficulty/${encodeURIComponent(difficulty)}`);
+  },
+};
+
+// ──────────────────────────────────────────────
+// MENTORS API
+// ──────────────────────────────────────────────
+
+export const mentorsAPI = {
+  getAll: async (): Promise<Mentor[]> => {
+    return fetchAPI('/mentors');
+  },
+
+  getById: async (id: string): Promise<Mentor> => {
+    return fetchAPI(`/mentors/${id}`);
+  },
+
+  getByLocation: async (location: string): Promise<Mentor[]> => {
+    return fetchAPI(`/mentors/location/${encodeURIComponent(location)}`);
+  },
+
+  getByExpertise: async (expertise: string): Promise<Mentor[]> => {
+    return fetchAPI(`/mentors/expertise/${encodeURIComponent(expertise)}`);
+  },
+};
+
+// ──────────────────────────────────────────────
+// HEALTH CHECK
+// ──────────────────────────────────────────────
+
+export const apiHealth = async (): Promise<{ status: string; message: string }> => {
+  return fetchAPI('/health');
+};
