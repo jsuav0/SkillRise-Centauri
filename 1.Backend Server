@@ -1,0 +1,191 @@
+import express, { Express, Request, Response } from 'express';
+import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const app: Express = express();
+const PORT = process.env.PORT || 5000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// Helper function to read JSON data files
+const readDataFile = (filename: string) => {
+  try {
+    const filePath = path.join(__dirname, 'data', filename);
+    const data = fs.readFileSync(filePath, 'utf-8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error(`Error reading ${filename}:`, error);
+    return [];
+  }
+};
+
+// ──────────────────────────────────────────────
+// EVENTS ENDPOINTS
+// ──────────────────────────────────────────────
+
+app.get('/api/events', (req: Request, res: Response) => {
+  const events = readDataFile('events.json');
+  res.json(events);
+});
+
+app.get('/api/events/:id', (req: Request, res: Response) => {
+  const events = readDataFile('events.json');
+  const event = events.find((e: any) => e.id === req.params.id);
+  if (event) {
+    res.json(event);
+  } else {
+    res.status(404).json({ error: 'Event not found' });
+  }
+});
+
+app.get('/api/events/city/:city', (req: Request, res: Response) => {
+  const events = readDataFile('events.json');
+  const cityEvents = events.filter((e: any) => 
+    e.city.toLowerCase() === req.params.city.toLowerCase()
+  );
+  res.json(cityEvents);
+});
+
+// ──────────────────────────────────────────────
+// HUBS ENDPOINTS
+// ──────────────────────────────────────────────
+
+app.get('/api/hubs', (req: Request, res: Response) => {
+  const hubs = readDataFile('hubs.json');
+  res.json(hubs);
+});
+
+app.get('/api/hubs/:id', (req: Request, res: Response) => {
+  const hubs = readDataFile('hubs.json');
+  const hub = hubs.find((h: any) => h.id === req.params.id);
+  if (hub) {
+    res.json(hub);
+  } else {
+    res.status(404).json({ error: 'Hub not found' });
+  }
+});
+
+app.get('/api/hubs/city/:city', (req: Request, res: Response) => {
+  const hubs = readDataFile('hubs.json');
+  const cityHubs = hubs.filter((h: any) => 
+    h.city.toLowerCase() === req.params.city.toLowerCase()
+  );
+  res.json(cityHubs);
+});
+
+app.get('/api/hubs/region/:region', (req: Request, res: Response) => {
+  const hubs = readDataFile('hubs.json');
+  const regionHubs = hubs.filter((h: any) => 
+    h.region.toLowerCase() === req.params.region.toLowerCase()
+  );
+  res.json(regionHubs);
+});
+
+app.get('/api/hubs/nation/:nation', (req: Request, res: Response) => {
+  const hubs = readDataFile('hubs.json');
+  const nationHubs = hubs.filter((h: any) => 
+    h.nation.toLowerCase() === req.params.nation.toLowerCase()
+  );
+  res.json(nationHubs);
+});
+
+// ──────────────────────────────────────────────
+// COURSES ENDPOINTS
+// ──────────────────────────────────────────────
+
+app.get('/api/courses', (req: Request, res: Response) => {
+  const courses = readDataFile('courses.json');
+  res.json(courses);
+});
+
+app.get('/api/courses/:id', (req: Request, res: Response) => {
+  const courses = readDataFile('courses.json');
+  const course = courses.find((c: any) => c.id === req.params.id);
+  if (course) {
+    res.json(course);
+  } else {
+    res.status(404).json({ error: 'Course not found' });
+  }
+});
+
+app.get('/api/courses/category/:category', (req: Request, res: Response) => {
+  const courses = readDataFile('courses.json');
+  const categoryCourses = courses.filter((c: any) => 
+    c.category.toLowerCase() === req.params.category.toLowerCase()
+  );
+  res.json(categoryCourses);
+});
+
+app.get('/api/courses/difficulty/:difficulty', (req: Request, res: Response) => {
+  const courses = readDataFile('courses.json');
+  const diffCourses = courses.filter((c: any) => 
+    c.difficulty.toLowerCase() === req.params.difficulty.toLowerCase()
+  );
+  res.json(diffCourses);
+});
+
+// ──────────────────────────────────────────────
+// MENTORS ENDPOINTS
+// ──────────────────────────────────────────────
+
+app.get('/api/mentors', (req: Request, res: Response) => {
+  const mentors = readDataFile('mentors.json');
+  res.json(mentors);
+});
+
+app.get('/api/mentors/:id', (req: Request, res: Response) => {
+  const mentors = readDataFile('mentors.json');
+  const mentor = mentors.find((m: any) => m.id === req.params.id);
+  if (mentor) {
+    res.json(mentor);
+  } else {
+    res.status(404).json({ error: 'Mentor not found' });
+  }
+});
+
+app.get('/api/mentors/location/:location', (req: Request, res: Response) => {
+  const mentors = readDataFile('mentors.json');
+  const locationMentors = mentors.filter((m: any) => 
+    m.location.toLowerCase() === req.params.location.toLowerCase()
+  );
+  res.json(locationMentors);
+});
+
+app.get('/api/mentors/expertise/:expertise', (req: Request, res: Response) => {
+  const mentors = readDataFile('mentors.json');
+  const expertiseMentors = mentors.filter((m: any) => 
+    m.expertise.some((e: string) => 
+      e.toLowerCase() === req.params.expertise.toLowerCase()
+    )
+  );
+  res.json(expertiseMentors);
+});
+
+// ──────────────────────────────────────────────
+// HEALTH CHECK
+// ──────────────────────────────────────────────
+
+app.get('/api/health', (req: Request, res: Response) => {
+  res.json({ status: 'ok', message: 'Centauri API is running' });
+});
+
+// ──────────────────────────────────────────────
+// START SERVER
+// ──────────────────────────────────────────────
+
+app.listen(PORT, () => {
+  console.log(`
+╔═══════════════════════════════════════╗
+║     Centauri API Server Running       ║
+║     http://localhost:${PORT}          ║
+║     Press Ctrl+C to stop              ║
+╚═══════════════════════════════════════╝
+  `);
+});
