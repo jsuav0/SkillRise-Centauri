@@ -1,0 +1,974 @@
+[
+  {
+    "name": "ONE Tech Hub",
+    "city": "Aberdeen",
+    "postcode": "AB10 1JQ",
+    "type": "Technology Hub",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "Regional tech hub"
+  },
+  {
+    "name": "CodeBase Edinburgh",
+    "city": "Edinburgh",
+    "postcode": "EH1 2EL",
+    "type": "Technology Hub",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "Technology incubator"
+  },
+  {
+    "name": "CodeBase Stirling",
+    "city": "Stirling",
+    "postcode": "FK8 2HU",
+    "type": "Technology Hub",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "Technology incubator"
+  },
+  {
+    "name": "Edinburgh BioQuarter",
+    "city": "Edinburgh",
+    "postcode": "EH16 4UU",
+    "type": "Science and Innovation Park",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Heriot-Watt Research Park",
+    "city": "Edinburgh",
+    "postcode": "EH14 4AS",
+    "type": "Science Park",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Roslin Innovation Centre",
+    "city": "Roslin",
+    "postcode": "EH25 9RG",
+    "type": "Innovation Centre",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Stirling University Innovation Park",
+    "city": "Stirling",
+    "postcode": "FK9 4NF",
+    "type": "Innovation Park",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "West of Scotland Science Park",
+    "city": "Glasgow",
+    "postcode": "G20 0XA",
+    "type": "Science Park",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "University of Glasgow Clinical Innovation Zone",
+    "city": "Glasgow",
+    "postcode": "G51 4TF",
+    "type": "Innovation Zone",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Scottish Enterprise Technology Park",
+    "city": "East Kilbride",
+    "postcode": "G75 0QF",
+    "type": "Technology Park",
+    "region": "Scotland",
+    "nation": "Scotland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "M-SParc",
+    "city": "Gaerwen",
+    "postcode": "LL60 6AG",
+    "type": "Science Park",
+    "region": "Wales",
+    "nation": "Wales",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Aberystwyth Innovation and Enterprise Campus",
+    "city": "Aberystwyth",
+    "postcode": "SY23 3EE",
+    "type": "Innovation Campus",
+    "region": "Wales",
+    "nation": "Wales",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Cardiff Medicentre",
+    "city": "Cardiff",
+    "postcode": "CF14 4UJ",
+    "type": "Innovation Centre",
+    "region": "Wales",
+    "nation": "Wales",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Swansea University Institute of Life Science",
+    "city": "Swansea",
+    "postcode": "SA2 8PP",
+    "type": "Innovation Centre",
+    "region": "Wales",
+    "nation": "Wales",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "The OpTIC Technology Centre",
+    "city": "St Asaph",
+    "postcode": "LL17 0JD",
+    "type": "Technology Centre",
+    "region": "Wales",
+    "nation": "Wales",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Catalyst Belfast",
+    "city": "Belfast",
+    "postcode": "BT3 9DT",
+    "type": "Innovation Hub",
+    "region": "Northern Ireland",
+    "nation": "Northern Ireland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Innovation Factory",
+    "city": "Belfast",
+    "postcode": "BT12 7DG",
+    "type": "Innovation Hub",
+    "region": "Northern Ireland",
+    "nation": "Northern Ireland",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Ormeau Baths",
+    "city": "Belfast",
+    "postcode": "BT7 1SH",
+    "type": "Technology Hub",
+    "region": "Northern Ireland",
+    "nation": "Northern Ireland",
+    "category": "Regional tech hub"
+  },
+  {
+    "name": "Birmingham City University STEAMhouse",
+    "city": "Birmingham",
+    "postcode": "B4 7RQ",
+    "type": "Innovation Hub",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Innovation Birmingham Campus",
+    "city": "Birmingham",
+    "postcode": "B7 4BB",
+    "type": "Innovation Campus",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Birmingham Research Park",
+    "city": "Birmingham",
+    "postcode": "B15 2SQ",
+    "type": "Science Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Coventry University Technology Park",
+    "city": "Coventry",
+    "postcode": "CV1 2TT",
+    "type": "Technology Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "University of Warwick Science Park",
+    "city": "Coventry",
+    "postcode": "CV4 7EZ",
+    "type": "Science Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "University of Wolverhampton Science Park",
+    "city": "Wolverhampton",
+    "postcode": "WV10 9RU",
+    "type": "Science Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Keele University Science and Innovation Park",
+    "city": "Newcastle-under-Lyme",
+    "postcode": "ST5 5SP",
+    "type": "Science and Innovation Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "MIRA Technology Park",
+    "city": "Nuneaton",
+    "postcode": "CV10 0TU",
+    "type": "Technology Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Malvern Hills Science Park",
+    "city": "Malvern",
+    "postcode": "WR14 3SZ",
+    "type": "Science Park",
+    "region": "West Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Manchester Science Park",
+    "city": "Manchester",
+    "postcode": "M15 6GZ",
+    "type": "Science Park",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Citylabs Manchester",
+    "city": "Manchester",
+    "postcode": "M13 9NQ",
+    "type": "Innovation Centre",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Manchester Technology Centre",
+    "city": "Manchester",
+    "postcode": "M1 7ED",
+    "type": "Technology Centre",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Manchester CoderDojo",
+    "city": "Manchester",
+    "postcode": "M4 5AF",
+    "type": "Coding Club",
+    "region": "North West",
+    "nation": "England",
+    "category": "CoderDojo/community coding"
+  },
+  {
+    "name": "Sci-Tech Daresbury",
+    "city": "Daresbury",
+    "postcode": "WA4 4AD",
+    "type": "Science and Innovation Campus",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Alderley Park",
+    "city": "Macclesfield",
+    "postcode": "SK10 4TG",
+    "type": "Science Park",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Hexagon Tower",
+    "city": "Manchester",
+    "postcode": "M9 8GQ",
+    "type": "Innovation Centre",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Baltic Creative",
+    "city": "Liverpool",
+    "postcode": "L1 0AH",
+    "type": "Creative Tech Hub",
+    "region": "North West",
+    "nation": "England",
+    "category": "Creative and digital hub"
+  },
+  {
+    "name": "Liverpool Science Park",
+    "city": "Liverpool",
+    "postcode": "L3 5TF",
+    "type": "Science Park",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Sensor City",
+    "city": "Liverpool",
+    "postcode": "L3 5LJ",
+    "type": "Innovation Centre",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Lancaster University Health Innovation Campus",
+    "city": "Lancaster",
+    "postcode": "LA1 4YW",
+    "type": "Innovation Campus",
+    "region": "North West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "NetPark",
+    "city": "Sedgefield",
+    "postcode": "TS21 3FD",
+    "type": "Technology Park",
+    "region": "North East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "TusPark Newcastle Barclays Eagle Lab",
+    "city": "Newcastle upon Tyne",
+    "postcode": "NE1 3DY",
+    "type": "Technology Hub",
+    "region": "North East",
+    "nation": "England",
+    "category": "Regional tech hub"
+  },
+  {
+    "name": "Wilton Centre",
+    "city": "Redcar",
+    "postcode": "TS10 4RF",
+    "type": "Science and Innovation Centre",
+    "region": "North East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "York Science Park",
+    "city": "York",
+    "postcode": "YO10 5DG",
+    "type": "Science Park",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "York Biotech Campus",
+    "city": "York",
+    "postcode": "YO41 1LZ",
+    "type": "Science Campus",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Nexus Leeds",
+    "city": "Leeds",
+    "postcode": "LS2 3AA",
+    "type": "Innovation Hub",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Platform Leeds",
+    "city": "Leeds",
+    "postcode": "LS1 4JB",
+    "type": "Digital Hub",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Sheffield Technology Parks",
+    "city": "Sheffield",
+    "postcode": "S1 2NS",
+    "type": "Technology Park",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Advanced Manufacturing Park Technology Centre",
+    "city": "Rotherham",
+    "postcode": "S60 5WG",
+    "type": "Technology Centre",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "C4DI Hull",
+    "city": "Hull",
+    "postcode": "HU1 1UU",
+    "type": "Digital Innovation Hub",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "Regional tech hub"
+  },
+  {
+    "name": "Harrogate Co-Lab",
+    "city": "Harrogate",
+    "postcode": "HG1 1BJ",
+    "type": "Digital Hub",
+    "region": "Yorkshire and The Humber",
+    "nation": "England",
+    "category": "Regional tech hub"
+  },
+  {
+    "name": "BioCity Nottingham",
+    "city": "Nottingham",
+    "postcode": "NG1 1GF",
+    "type": "Innovation Centre",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Nottingham Science Park",
+    "city": "Nottingham",
+    "postcode": "NG7 2TU",
+    "type": "Science Park",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "University of Nottingham Innovation Park",
+    "city": "Nottingham",
+    "postcode": "NG7 2TU",
+    "type": "Innovation Park",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Dock Leicester",
+    "city": "Leicester",
+    "postcode": "LE2 7DR",
+    "type": "Innovation Centre",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "LUSEP Loughborough University Science and Enterprise Park",
+    "city": "Loughborough",
+    "postcode": "LE11 3QF",
+    "type": "Science and Enterprise Park",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Lincoln Science and Innovation Park",
+    "city": "Lincoln",
+    "postcode": "LN6 7DL",
+    "type": "Science and Innovation Park",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Mansfield i-Centre",
+    "city": "Mansfield",
+    "postcode": "NG18 5BR",
+    "type": "Innovation Centre",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Cambridge Science Park",
+    "city": "Cambridge",
+    "postcode": "CB4 0FZ",
+    "type": "Science Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "St John's Innovation Centre",
+    "city": "Cambridge",
+    "postcode": "CB4 0WS",
+    "type": "Innovation Centre",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Cambridge Biomedical Campus",
+    "city": "Cambridge",
+    "postcode": "CB2 0AA",
+    "type": "Innovation Campus",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Cambridge Innovation Parks",
+    "city": "Cambridge",
+    "postcode": "CB25 9QE",
+    "type": "Innovation Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Chesterford Research Park",
+    "city": "Saffron Walden",
+    "postcode": "CB10 1XL",
+    "type": "Research Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Norwich Research Park",
+    "city": "Norwich",
+    "postcode": "NR4 7UZ",
+    "type": "Research Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Hethel Innovation",
+    "city": "Norwich",
+    "postcode": "NR14 8FB",
+    "type": "Innovation Centre",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Scottow Enterprise Park",
+    "city": "Norwich",
+    "postcode": "NR10 5FB",
+    "type": "Technology Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Stevenage Bioscience Catalyst",
+    "city": "Stevenage",
+    "postcode": "SG1 2FX",
+    "type": "Innovation Campus",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Milton Park",
+    "city": "Abingdon",
+    "postcode": "OX14 4RY",
+    "type": "Science and Technology Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Harwell Campus",
+    "city": "Didcot",
+    "postcode": "OX11 0QX",
+    "type": "Science and Innovation Campus",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Harwell Innovation Centre",
+    "city": "Didcot",
+    "postcode": "OX11 0QG",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Culham Science Centre",
+    "city": "Abingdon",
+    "postcode": "OX14 3DB",
+    "type": "Science Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Culham Innovation Centre",
+    "city": "Abingdon",
+    "postcode": "OX14 3DB",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Oxford Science Park",
+    "city": "Oxford",
+    "postcode": "OX4 4GA",
+    "type": "Science Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Oxford Centre for Innovation",
+    "city": "Oxford",
+    "postcode": "OX1 1BY",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Oxford BioEscalator",
+    "city": "Oxford",
+    "postcode": "OX3 7FZ",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Begbroke Science Park",
+    "city": "Oxford",
+    "postcode": "OX5 1PF",
+    "type": "Science Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Bicester Innovation Centre",
+    "city": "Bicester",
+    "postcode": "OX26 4LD",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "University of Southampton Science Park",
+    "city": "Southampton",
+    "postcode": "SO16 7NP",
+    "type": "Science Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Southampton SETsquared Centre",
+    "city": "Southampton",
+    "postcode": "SO17 1BJ",
+    "type": "Enterprise Hub",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Surrey Research Park",
+    "city": "Guildford",
+    "postcode": "GU2 7YG",
+    "type": "Research Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "SETSquared Surrey",
+    "city": "Guildford",
+    "postcode": "GU2 7XH",
+    "type": "Enterprise Hub",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Sussex Innovation Centre",
+    "city": "Brighton",
+    "postcode": "BN1 9SB",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Discovery Park",
+    "city": "Sandwich",
+    "postcode": "CT13 9FF",
+    "type": "Science and Innovation Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Kent Science Park",
+    "city": "Sittingbourne",
+    "postcode": "ME9 8AG",
+    "type": "Science Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Thames Valley Science Park",
+    "city": "Reading",
+    "postcode": "RG2 9LH",
+    "type": "Science Park",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Imperial College White City Incubator",
+    "city": "London",
+    "postcode": "W12 0BZ",
+    "type": "Innovation Incubator",
+    "region": "London",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Imperial College ThinkSpace",
+    "city": "London",
+    "postcode": "W12 0BZ",
+    "type": "Innovation Space",
+    "region": "London",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Queen Mary BioEnterprises Innovation Centre",
+    "city": "London",
+    "postcode": "E1 2AX",
+    "type": "Innovation Centre",
+    "region": "London",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "The Digital College",
+    "city": "London",
+    "postcode": "N7 9DP",
+    "type": "Digital Learning Centre",
+    "region": "London",
+    "nation": "England",
+    "category": "Digital skills provider"
+  },
+  {
+    "name": "Barbican Library CoderDojo",
+    "city": "London",
+    "postcode": "EC2Y 8DS",
+    "type": "Coding Club",
+    "region": "London",
+    "nation": "England",
+    "category": "CoderDojo/community coding"
+  },
+  {
+    "name": "Cypher Coders",
+    "city": "London",
+    "postcode": "EC3V 3DG",
+    "type": "Coding School",
+    "region": "London",
+    "nation": "England",
+    "category": "Digital skills provider"
+  },
+  {
+    "name": "Brent Digital Skills Hub",
+    "city": "Wembley",
+    "postcode": "HA9 7AJ",
+    "type": "Digital Skills Hub",
+    "region": "London",
+    "nation": "England",
+    "category": "Digital skills provider"
+  },
+  {
+    "name": "Catford Coding Club",
+    "city": "London",
+    "postcode": "SE6 4TY",
+    "type": "Coding Club",
+    "region": "London",
+    "nation": "England",
+    "category": "Community coding club"
+  },
+  {
+    "name": "Community Coding Club Ruislip",
+    "city": "Ruislip",
+    "postcode": "HA4 9DY",
+    "type": "Coding Club",
+    "region": "London",
+    "nation": "England",
+    "category": "Community coding club"
+  },
+  {
+    "name": "Bristol and Bath Science Park",
+    "city": "Bristol",
+    "postcode": "BS16 7FR",
+    "type": "Science Park",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Future Space",
+    "city": "Bristol",
+    "postcode": "BS16 1QY",
+    "type": "Innovation Centre",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Unit DX",
+    "city": "Bristol",
+    "postcode": "BS2 0XJ",
+    "type": "Science Incubator",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "SETsquared Bristol",
+    "city": "Bristol",
+    "postcode": "BS8 1QU",
+    "type": "Enterprise Hub",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Plymouth Science Park",
+    "city": "Plymouth",
+    "postcode": "PL6 8BT",
+    "type": "Science Park",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Exeter Science Park",
+    "city": "Exeter",
+    "postcode": "EX5 2FN",
+    "type": "Science Park",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "SETsquared Exeter",
+    "city": "Exeter",
+    "postcode": "EX4 4RN",
+    "type": "Enterprise Hub",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Pool Innovation Centre",
+    "city": "Redruth",
+    "postcode": "TR15 3PL",
+    "type": "Innovation Centre",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Tremough Innovation Centre",
+    "city": "Penryn",
+    "postcode": "TR10 9TA",
+    "type": "Innovation Centre",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Brixham Laboratory",
+    "city": "Brixham",
+    "postcode": "TQ5 8BA",
+    "type": "Science and Innovation Centre",
+    "region": "South West",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Fareham Innovation Centre",
+    "city": "Fareham",
+    "postcode": "PO13 9FU",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Base Bordon Innovation Centre",
+    "city": "Bordon",
+    "postcode": "GU35 0FJ",
+    "type": "Innovation Centre",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Silverstone Park",
+    "city": "Silverstone",
+    "postcode": "NN12 8GX",
+    "type": "Technology Park",
+    "region": "East Midlands",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Colworth Science Park",
+    "city": "Bedford",
+    "postcode": "MK44 1LQ",
+    "type": "Science Park",
+    "region": "East of England",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Bucks Health Tech Hub",
+    "city": "Aylesbury",
+    "postcode": "HP19 8DB",
+    "type": "Health Tech Hub",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  },
+  {
+    "name": "Bracknell Enterprise and Innovation Hub",
+    "city": "Bracknell",
+    "postcode": "RG12 1QS",
+    "type": "Enterprise and Innovation Hub",
+    "region": "South East",
+    "nation": "England",
+    "category": "UKSPA member"
+  }
+]
